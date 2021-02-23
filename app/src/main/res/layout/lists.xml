@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/checkboxItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/background_light"
+        android:bufferType="normal"
+        android:buttonTint="@color/cardview_light_background"
+        android:clickable="false"
+        android:foregroundTint="@color/cardview_light_background"
+        android:onClick="clickCheckBox"
+        android:text="CheckBox"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>
